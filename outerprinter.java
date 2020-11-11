@@ -1,26 +1,26 @@
 class outerprinter
 {
-	 public static void DisplayIntMessageinred(int message)
-		{
-			System.err.print(message);
-		}
+     public static void DisplayIntMessageinred(int message)
+     {
+	System.err.print(message);
+     }
     public static void DisplayMessageln(String message)
-	 {
+    {
 		System.out.println(message);
-	}
-   public static void DisplayMessagelninred(String message)
-	{
+     }
+     public static void DisplayMessagelninred(String message)
+     {
 		System.err.println(message);
-	}
-	public static void DisplayMessage(String message)
-	{
+     }
+     public static void DisplayMessage(String message)
+     {
 		System.out.print(message);
-	}
-   public static void DisplayIntMessage(int message)
-	{
+      }
+      public static void DisplayIntMessage(int message)
+     {
 		System.out.print(message);
-	}
-    public static void welcome()
+      }
+       public static void welcome()
 	{
 		System.out.println("Welcome to our Bank");
 	}
