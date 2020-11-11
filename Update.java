@@ -7,7 +7,7 @@ class Update
 		File newFile=new File(tempFile);
 	    try 
 		{
-		    String acno="";
+		       String acno="";
 			String pinno="";
 			String balance="";
 			String phno="";
@@ -16,7 +16,7 @@ class Update
 			PrintWriter pw=new PrintWriter(bw);
 			Scanner sc=new Scanner(new File(filepath));
 			sc.useDelimiter("[,\n]");
-		    while(sc.hasNext())
+		        while(sc.hasNext())
 			{
 				acno=sc.next();
 				pinno=sc.next();
@@ -34,8 +34,8 @@ class Update
 			sc.close();
 			pw.flush();
 			pw.close();
-		    fw.close();
-		    bw.close();
+		       fw.close();
+		       bw.close();
 			oldFile.delete();
 			File dump=new File(filepath);
 			newFile.renameTo(dump);
