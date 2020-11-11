@@ -9,17 +9,17 @@ class Digit
 			temp/=10;
 			sum++;
 		}
-	    return sum;
+	       return sum;
 	}
 	public static int getdigit(int m,int acno)
 	{
 		 int n=size(acno), k=n-1;
 		 int a[]=new int[n];
-	   for(int i=0;i<n;i++) 
-		  {
+	         for(int i=0;i<n;i++) 
+		 {
 			   a[k--]=acno%10;
 			  acno/=10;
-	    }
+	         }
 		 return a[m-1];
 	}
 }
