@@ -20,7 +20,7 @@ class Accounts
 	{
 		this.phno=phno;
 	}
-    public int getacno()
+        public int getacno()
 	{
 		return acno;
 	}
